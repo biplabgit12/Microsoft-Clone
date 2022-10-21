@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
+    <link rel="shortcut icon" href="/assets/favicon.90cdaf48.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/index.81fe2ad6.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar flex justify-between items-center py-0 lg:py-2">
+        <div class="flex justify-center items-center lg:order-2">
+            <div id="hamburgar" class="hamburgar inline-block p-3 cursor-pointer lg:hidden border hover:border-gray-700">
+                <div id="fline" class="line w-4 h-0.5 bg-gray-800 mb-1"></div>
+                <div id="sline" class="line w-4 h-0.5 bg-gray-800 mb-1"></div>
+                <div id="tline" class="line w-4 h-0.5 bg-gray-800 mb-1"></div>
+            </div>
+            <div class="search lg:hidden w-4 ml-5"><img src="/assets/search.c98f8a25.svg" alt=""></div>
+        </div>
+        <div class="logo flex text-center lg:order-1 ">
+            <div class="w-20 lg:w-24 lg:mx-3 lg:my-1 cursor-pointer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAAAuCAYAAABK69fpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTMyIDc5LjE1OTI4NCwgMjAxNi8wNC8xOS0xMzoxMzo0MCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTAwQkM2Mzk4NDBBMTFFNjhDQkVCOTdDMjE1NkM3RkQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTAwQkM2Mzg4NDBBMTFFNjhDQkVCOTdDMjE1NkM3RkQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBMkM5MzFBNDcwQTExMUU2QUVERkExNDU3ODU1M0I3QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBMkM5MzFBNTcwQTExMUU2QUVERkExNDU3ODU1M0I3QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgQJy/MAAAxESURBVHja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" alt=""></div>
+
+            <div id="features" class="features items-center text-sm absolute lg:static inset-0 w-full lg:w-auto lg:flex lg:space-x-4 lg:mx-4 lg:translate-x-0 bg-[#1F2937] hidden text-white lg:text-black lg:bg-white px-4 pt-7 lg:pt-0 space-y-6 lg:space-y-0 mt-11 lg:mt-0">
+                <div class="fitem cursor-pointer hover:underline underline-offset-4 flex"><a href="#">Microsoft 365</a></div>
+                <div class="fitem cursor-pointer hover:underline underline-offset-4 flex"><a href="#">Theams</a></div>
+                <div class="fitem cursor-pointer hover:underline underline-offset-4 flex"><a href="#">Windows</a></div>
+                <div class="fitem cursor-pointer hover:underline underline-offset-4 flex"><a href="#">Surface</a></div>
+                <div class="fitem cursor-pointer hover:underline underline-offset-4 flex"><a href="#">Small Business</a>
+                </div>
+                <div class="fitem cursor-pointer hover:underline underline-offset-4 flex"><a href="#">Support</a></div>
+            </div>
+        </div>
+        <div class="cart lg:order-3 flex">
+            <div class="search hidden lg:block text-xs mt-1 cursor-pointer hover:underline underline-offset-4">All
+                Microsoft</div>
+            <div class="w-4 mx-10 mt-1 hidden lg:block cursor-pointer"><img src="/assets/search.c98f8a25.svg" alt=""></div>
+            <div class="flex space-x-5 mr-2">
+                <img class="w-4 lg:w-5 cursor-pointer" src="/assets/shopping-cart.37bb108a.svg" alt="">
+                <img class="w-4 lg:w-5 cursor-pointer" src="/assets/account-27.b1df81eb.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- slider -->
+    <div class="slider flex justify-around flex-col-reverse lg:flex-row md:flex-row bg-gray-100 lg:py-16 md:py-16 lg:mx-8 lg:my-4">
+        <div class="left flex flex-col justify-center items-center px-4 space-y-2 py-3  ">
+            <h2 class="text-lg lg:text-3xl md:text-3xl font-bold">Microsoft 365</h2>
+            <p class="text-center text-[18px] lg:text-lg md:text-lg">Everything you need to achieve more in less time</p>
+            <button class="bg-blue-600 text-white py-1 text-sm px-2 rounded-md lg:py-1.5 md:py-1.5">For one person</button>
+
+        </div>
+        <div class="right">
+            <img class="w-[11.5rem] ml-9 lg:w-96 md:w-96" src="/assets/Slider.db5771c9.webp" alt="">
+        </div>
+    </div>
+
+
+
+
+    <div class="promo flex justify-center flex-col lg:flex-row lg:mx-2 lg:space-x-11 items-center py-6">
+        <div class="flex items-center flex-col my-4">
+            <img class="w-5" src="data:image/webp;base64,UklGRlABAABXRUJQVlA4IEQBAABQCQCdASooACgAPhkKhEGhBHGABABhLSRYBEgNMCyBIgHUAAOMZUK/xmz1f4zZCb+JOozfirXzKk2Z/TI3PUClFYMvBybmPVRQIUep53aFLPKqAAD+//6gvzoOc6aD0PAQ2cHo5+an1HHSzzZ6LZwSzsmiU/D/u377PyKrCos/RvW6nEsmeW11TbtDlFI+j5fee5KHs/7xmAXsy0J3Rx73/vUZ/fnPYhOsvZfYUccUUC7sf+/VfvtLsQso7k5NBrKt9WwI8jPwz6r4aP/7hOL8vB34bFe5GR/9fq8Ji9fvKW/69g8KHvdvVk/8Sd95x6uNZSc6Lf3yim7WnXCMWN3wRsXhWC22MIvnWTV/OF6c+4xX8c5qedUK4lLeanGPqPsDxFYgVxHlG5H/BKv4zCf7osQLMFUHjvHjCMjHlCZ/KlgAAAA=" alt="">
+            <span class="text-blue-600 underline cursor-pointer mt-2">Chose your Microsoft 365</span>
+        </div>
+        <div class="flex items-center flex-col my-4">
+            <img src="data:image/webp;base64,UklGRmIBAABXRUJQVlA4IFYBAAAQCQCdASooACgAPhUGgkEhBqgEAFEtIAJxfyR58T9R/Hb8btQb/ZsaA0Tf8o9d3/ZvSaxY/RC/yBDv4GdjDm0BdgeodbZbSWtOlItORODD3fAA/v/+zgW3/Cgt/fikrMvp/8ivxgzgugHRFYYbWnt+nnIzZsMJdcjr1UggotS4rW3vmPGBZgEyR2bG/+hNsrhPR//nrTM1Hq5B8LNgsZsTaRpyNwZ5MdpmuOf5aTwwBS9WLzmbBVhDkO7mtYYHFVZyBdy1CY/+qYv9w/TbFgdgsZb/GduyVrCOo7AwX+Voqpz1bVuSJz9euDd//sxnzJ/3+OWX5W1+nNSR77EbYJflXvppn5tQPyAGcBXr99C/2Vf3asbt4eDIGo9kTsx9l0j2I78wwc7px/J/53+QYjvp6bjcfAf9Hmw+3FS9pj5nyf9e8nGrjAQ6RzP/4PI2sAw+bk4AAAA=" alt="">
+            <span class="text-blue-600 underline cursor-pointer">Chose your Microsoft 365</span>
+        </div>
+        <div class="flex items-center flex-col my-4">
+            <img src="data:image/webp;base64,UklGRpIBAABXRUJQVlA4IIYBAAAQCQCdASooACgAPkkejUQioaGXHAcwKASEtIAJ407z1bNCAcnjoBvQCN9cfScyuAGTtvQMkpX/ay5iuSJLYTJAPT6tD0ZfLxsebHWctzDcPAAA/v92NZX33/vebRfHUzuqPFKTkE3b96T//xXZ6t9roysPlu1jUVg/mi6SqmmTgWm3J+7JYWvgrPPMukj+aCfaG9hBkv95/C3di0VdQcitc+V1AUo60NjGxi56smw+oJj9IxCz2++95JcsJwzgwRprO7bK0MAM/AZ9DIufj0LMSOKkBrwt/nQwJXyT7Yasfid5rCYHaaol1Deff05/uCs/9UO985FetcKYJ9WykLOtAQgqv+KnlG882f/P9Las31jeAufUfTX251o/E3Yj65Z31gIZ4s+PSV3PPbPXtdFQq6YXKPQfARuGVcC4D6lQwXt4GRXcv7s6lH/n2yWGeGa5/9nvpFf0moPV709gA6sPYNHbeNULD8455Z8cqNIf/JVZPLzxBn7D9P3uBE02Trzx74nAAAA=" alt="">
+            <span class="text-blue-600 underline cursor-pointer">Chose your Microsoft 365</span>
+        </div>
+        <div class="flex items-center flex-col my-4">
+            <img src="data:image/webp;base64,UklGRsABAABXRUJQVlA4ILQBAACQCQCdASooACgAPkUejESioaETnAUkKAREtIAIq39lx8v7VmackaSkMi70wfQH/J9JkjfXJ6FF8LUWOHUvX+fKut1Ei0+2onjW3Nd7IKVGrBEQ2UAAAP7/vc7UNzHP8cK6t0u41s0arNgv+a++PnBPDV/zLvcjg9oCGe+E9q898AXCYnBwkVj6IHTqlstk2SlXmPmEQjUEEOBJNfUm3SnYh6KD/+LEovxu9oVFVuNRgWxAZD/msKx5ThpD3VnlJvwxqKPSfpZcxYe9Qtaz/Nf1dsn+hj1ySnkHpkslomUqeJfZwpzqwVwDiN7hIfFx6sq8b3zCVe5ExNX2ufv776aDha8sOHGu7mg0mxPMFARFAf8nLb+01fP//NFravtfpmGwp/xMcMYLx+OBvmNkCxDUdfu1IQ5VGh7/kcaiR/KQH9lfn7FVfhHd0nqznAgiNtZB/ez/5F37xgfCzYydTL7FK0xPdPhh41v/fFmsH/f/jF9w7NgsVk60V+R6LeZj/GzTT4TKxvxosfUWKyYMN/tbVFL4L/uv9z/fAFWnkPGfV6uj4jEciWmJgHywWpaZCjpQAAAA" alt="">
+            <span class="text-blue-600 underline cursor-pointer">Chose your Microsoft 365</span>
+        </div>
+        <div class="flex items-center flex-col my-4">
+            <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAABQBgCdASooACgAPjEUh0KiIQ1SABABglpABXgCrAJ8T/sR3a2H0ePv6E47VNoWUt08G0BmrsDj7fGEAAD+/ooy7v/rnFr4a+c2Wm823gZhb+hyHOCuyH4gXpl/B2AebPU5hMdwaZJSdfnI206+vpO3jxt73gFqJesjW9/8A/weBZc9mvNP2Zu39vDA0mM38GBfI+s40J2Ve6BWja7uQThncMxD7n5vIXUf8gU1H//kb6A0GA/QGiByqNwXgvAAAAA=" alt="">
+            <span class="text-blue-600 underline cursor-pointer">Chose your Microsoft 365</span>
+        </div>
+    </div>
+
+
+
+
+    <div class="cards lg:flex lg:my-12">
+        <div class="card flex flex-col px-[1.4rem] py-3 space-y-4 lg:w-[338px]">
+            <img class="lg:max-w-[320px] " src="/assets/Content-Card-1.f015ce0f.webp" alt="">
+            <span class="bg-yellow-500 w-fit px-3 py-[3px] font-bold">New</span>
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">Surface Laptop 5</h2>
+                <p>Sleek portability and multitasking speed powered by 12th Gen Intel® Core, with Windows 11. Pre-order
+                    now and get Surface Dock or Surface Earbuds included.</p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Pre-order-now
+                        &#10095;</a></span>
+            </div>
+        </div>
+        <div class="card flex flex-col px-[1.4rem] py-3 space-y-4 lg:w-[338px]">
+            <img class="lg:max-w-[320px] " src="/assets/Content-Card-2.c7470316.webp" alt="">
+            <span class="bg-yellow-500 w-fit px-3 py-[3px] font-bold">New</span>
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">Surface Studio 2+</h2>
+                <p>The most versatile all-in-one device that gives you a large canvas to express yourself at any angle.
+                </p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Pre-order-now
+                        &#10095;</a></span>
+            </div>
+        </div>
+        <div class="card flex flex-col px-[1.4rem] py-3 space-y-4 lg:w-[338px]">
+            <img class="lg:max-w-[320px] " src="/assets/Content-Card-3.a1fef25e.webp" alt="">
+            <!-- <span class="bg-yellow-500 w-fit px-3 py-[3px] font-bold">New</span> -->
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">PC Game Pass</h2>
+                <p>Unlock 100+ great games and EA Play, plus get your first month for £1. Offer available to new
+                    subscribers only.</p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Join now &#10095;</a></span>
+            </div>
+        </div>
+        <div class="card flex flex-col px-[1.4rem] py-1 space-y-3 lg:w-[358px]">
+            <img class="w-48 lg:max-w-[230px] pl-6" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAABvCAMAAAANOwgdAAAArlBMVEVHcEwAAQAActkAAAEAWYIAAAAEEBUAAAAAjO8AAAAAAAEAAQAAQboAV88ARb4AAQAAScIAgOcAAAABTWUAAAAEBAIAYtUATsgAk/4AcOgBAQEAAQEAAQEAAQAAAQEBAAACAwMDEBQAAQEAof4AFB4BAQAActYBbMEUKzcBAgAAcNMAiPQBbc4JbMMAnvEBITvBBQwET7MGNGBIBABvXQD63wwkAAAAl/EAn/UApviWo0y0AAAAN3RSTlMA6f1/ModWhP7EjPn7/Pu2+/6/I5Vc/Pvd/aOq4rB2yWg5nN2c0dpYStu87Z151aKww9bhwuOvpPtl2wAADc1JREFUaIHNmw9/msoShhNRLJwmmwAmEYIgFiFGT9P23Kv5/l/szsz+X9BA2nt/d0xXQIWHd97ZXZFeXTkRr4dFOZsbEc7mxvrMH7iT2D26G9Xzy4B4fn5+qWuxhPHr1zXFX9d/jYrZBzjXUdCJKIoCZ3MBUfMgvl+/APD5+vqZQw2PT+D0RFFoIKkXRyGFhgN9hBOcjhDUiNZa+qLi/su9ERMdDzxuRDw+Pt7JuBXxVcQAnHcVJ2p0HLtMXzTTcrmcLJFGEQkcAnKQOM3tIJwT/p0IxKIhoi8Ac+zQLO8RZink4Tg3DxzmBmkeNQs2X2+H43BZqLVgMGUS6UjpsnM24fKQQKY8j5QvArqVCRuhDheHP1nqGJaS/jF4uEJcnQlX5wHlkTxd9wxOlkA6GUhHk8hykHIP6bM082Xo8yj1gcfX2zHJMt186ubr6BCZ+siEdfS5MwW6G5cska2Ty2QAkX8cIMJRCevYx87YWCurjPUa6HhUljbTtbSAuDzddN1+JllGgb07QFwfs+rvzYShgQx9HrVA0j1U66O904HhPLY6R2XpJX9wIFses8BGJktLYxCZFeZkzOqkl0veQS8flrI3fLAKTACNTdZJL7glL2kceSSPDA6ENBqI54vLMz5ZvGe2Bq9OB2QMG6KjNogsffTw9XkcWfd2vVv2sfJFUPc2kSp6kS3e9XwORwwYFs9R+kfUl0F0L0W6N7O2dHluP1NZTtIMIpWtL7r/sRWyjSR4yM23fwKHFLL6Z1Ofo4OiVkwgU57Pe6crzsmorh5txFgvwtKH4/yWld/l7Of93VTnZCfM8Y6O0+vmSclDOLe/nayT0x9aw2mnvrg6r6+vT08bCsK5efhjyXoX1WWZ+XTOzQQCf08bE+cT6vw9ICSPco+tzgYpnhBnI8XZOFYe7J3442ic2jo64hALyPK60cHVIZwxvXIxbafreGoEfJdue3CUkXXHLImeRFCyHHWUOANxAKU5NAbOYbvdbbf7LcRu/+PHj+hb446lX+zvXhsDRxL9Bs5+e2gh1kQT7+nLyo7aHw8/vr7UDf8CRiwnAXM0htEnG+dJ4GjrDJ/vIM7UFGe6n2z3iHNoAOfx7e3nd6mOsrOjjouDRFqcR1Hmg3Es74A6h2aLOIctqAM4Pw3vnBSMFue+H8euq4Hq1OidfWPh8GRtt6gOLG4N78j5jjVivYq4f9WxlAP63Wic/fQgnYPJ2gHHBNrtZPtja+Kc+gu9T52nHnEG4sSHvVtZO6ysHVQWLO52jTNQuH1yP86Ncs7dKJzp4WCoY1XWdiLVkUBG53O8gLOxJxfjcHa2d/ZTsjIkDR4N/JnjqDCzOc3YdHA2Ns7wL8Vk5aZpW6PQ9w2qE19xKMR51/JYk7BjB2dDD1DnpmOdwTgHu9B1snY8We+dqbNloI1Q5HWjs8XnFnemdYbi2GPWHt27hXZLnt7yZIlvX84XL4oT9sKulQ0nj1DnrxdAab21KQ/FNJ7qIdSc/7hFb0x4EGdLf69PotN5NMQZihP+LLV1put27U4wrPkzH78sM+srqjQNe/r76cm0zt3XUer4K4MmprEcB3XVNuYMUY9bZsesrmfQFwmAMi7pjlVn6oxZwsRb1e/IybM9AetIwy/v3k8m5hc+bZ2hOFZlTeUQ2jQ4bDUNxzEMczJw7k0kurYyMa+BiatNXwfjPINl9w3Nd5Q6TbsDnP2BphkH7JV7akpdd9JXnuRFJ3U55W40zos7G+ztd05mN+haR8DoK5bq2rudq4HqOP3OYb/fwWNP/Q92PDuljnUhjCtjwkiaB45Dl7oNcYbitP6ZXnn79va2xRG980X9aDlZ/lgyMa4OflKddRmH0arVgxZMTncyWW/t2zbeNm6muDpSm4lFc6OSdaev7Az9xQbUaWPvp9XvTCBPWFlTwHl723F13k/mZSfrgu5E/5ykLzPd2FOdMck6YGUZhb6jEX23x0J//fc/adO9TNgD8yCvvGOilDgWzwCcaWvPBu3pVzP551+p+GJj5sqwsRbHytWdGj7HWhlwdL8DkzE+ovORfZekoeWdk/1LwER6R/9u45b5OO8QjlnpzgA6Nb4Uq6rSJW78DvlgW+fRrqth6kwX9pjVE43uk50KRxatjlVXj3cuzVB11pdppo11PQXr6v5LV52HyRlxRhY6JOvQfoijByujP54YmTKdc6NGT5NmWGU5VzD6cazLgvfdOlc/2DwIbVRdjcPBb6GHw8V8NdalOGMYn1g0E9M5+qesscmKD4fmQ5zOTzY8WW5dyWyJH9LxV9CR6qwBB9S5ANQ4PaCeAtrOcX44clM1COcqxp7G/OIQ8/kqTNmxWccf9QNDooVZQzsdoo4Xx1fiu4PcGq/XcRnH+7g9XM39K+dS4aiY4g1CLd2808Yf41yH4Xce377r+EYRfksSaL6H334rvqulATj98cxvzXnG5+f+uDaWzuyFbqYx7qa5HoHTOe6L9SQXX54vx3m26yE4zxzkvAov9FAwYlU0PZJd9yIJnT7AiegmJXXb1JmcySWeQP2iaM7r4Qb7CMfMVs7+G8HvxromD0WXaeIsrVSw5M9HlSQR3zseKE0v4/ghvZV/lKWXo1JPlbOpLzL8wwcTh8A29C+K43uVPpOQtyH9nX3I98mnYcHqggHQyr90J2PbrvD4Mwh5l6RHf3Nahwb+whm8AxtamNECNqF4JRRNbyS8SRKQKUwAp70kTlsmYVZljCUsiXIwUp6zMK9yWK9YjpLjeprBeprAM2xk4AJ4f46v50mS5RX8g08nDD4Cn4etVZXlaZRhg++K4POwBG+qSn9xHmft+4ukKvBGyrQoiigNiiCKqgK2pAwW84gVUZAFDJoiYPgc5PAIIpbhO7MI2gI+Ba9HsM4iiCKnWx7TgDdBndIqNUnp++vzRm4Bh7GoKHDHQZGlcKgaFIEWFKAWlmGvDFuWAnhWZNCmdaaW80JhEnCaQbCszrIgq2EjLBXACLvIEeesPLHv+6s5nFqR1yBGweC4UYEnjZsy2HWdIdRLliNgTlA5qBUVWZ3iMrURHAlvFc0jWhF3heZ1BJv5Guybv+CtAOecmX3C4VmBcwcHBJDnlIHyKQCASzJIVw4wkAx4OYIU5gzbKMc3ATEwgCci6u4i2MpyOJsAE5dlgMNgr0VUBSk2kOI54pwxc7zw/XIBfQeeWg2fxjyj3EWGykIS8KTx9lwSJUKBInqBTjmvUQ5+B22BIkJLr7CCr8CZoEDAXsNZ5HUAXi/PZ2uN4viYGNARzh2eohTWgqCKUNqKtMacgY0zeiFFNnA8QmTEiaLApow+IV6oebZwv2ToHA+BiuZpufIXZ8wM4vjlKqxSOqkaShs9Gs3wzFlChk3JwnkS4dFT2MRytBG6FVv6IFcsyshAAESQkMesANlZBHUBIBU5Pqu81cJf9MpDRvbDJGWMpwO9VmNp4kfJg3gctDBtqvmt1WJToDZFlLya0qXeBVAMpS2wDViN8tcsS8JytVj0mhmNXPopI3NEdHZwohllAXKWk18jsiZugmwxvQlel5uYeleU4xsjcUM2o9RVuJriCUNPCLtfoDx9ZoZcLcpVOU9yJnYA76a+JsKeMS8qqmtKTsZwE6N8QX+C5ud9DlAz6oBIm6yQd38zKCzsErBHwL4DCwzSnXjnssWNXIVQzNSZUkEF1KuiWHwl4MrVfIXR6zW9ToUFK/RZsQJPkQyeOOwiQBzs19I8CwBnvsBsdc1MRl54MF5hf4FHYDOqniSl0wtxRxHfH9YVrrBAryTknzwJ5AqwVllGVPQGWMOCogJL8AApC8MVBNRWR56YaFaLVZiCiHQIEKRa4LlQljJ+2LOR1zSW5AyfsAwStH5OfSF8MCQ/ZjJ3AXoM5nfz1aosF92e2ec4JeIUVSQ7eRgXKiokqt6LOOQTGLoKXoIMLR2BX3PqBkHJgpckvReqPUuTKPRWXtnXM5ORfZxBZBnMEiDSGS6n1QxXMtp0KSoaKbOQr1T0lOKncvpwrl7LYZTBxTxP5jh5xNpys4VGhq0tVZfHYy6fYN6FsyzV6LVLE60PY7Yq0bB0YKdn5tuh5BaLkvMIGM/jc8IBMbsUHZbZ3EPbQPADO0ZufUmk5FERzsUuz2qBc87EBuCf4fNapSifwvIXgAZwsK58Z5rh60Aclyecz2dudJEqycH/F5Jq5vrTKtfwghBHJMv37VxJdfyyF8fhCfVDK0RHmVn/UcrBMWgEjq8etpGVOKiOzcMlP2cIA2lu/S+tSzywaSWtI/y8NsWxk2XjhF7vLkOukmAinEsxm4k/8YVJ4PjKPcrIDo6brbBf8Jn4vqW+c32EMxNEFs6CvLP6FpbSzCbMWZwemJk29CB1VJ6QRuFwhbJQyVMSoJDMxJnTv/l5dZSrh6kz1+byPF7nBAMHTtKyNIy8ENqY6hDN3Av1/s4QybRdxplbOCutDvW+zBNmFrIIIqDRXqbTSLxLPFweiuQijqKSOKiOTNfCr9iiVEZe8HTJUUKpA6mShXWZaQCO2Qd4AkebZzWvyMy+b/BIHMmDj8Tr7nY8jt0hea46dGDsmUXXKP4MHGHknv2KAWA2m1lcl8UxYSSORbPAbCkjC41s81ghr/V0EUeGRzQrGwYPvr5quWj0D5/K0ux35jJj7un9Lg6vLCc8mBSG85UTHm8MXeyXOu833mtu7QuF5CSaelQPK2vd+v8P0bYf/4/n/3X8B7NrIS62UauYAAAAAElFTkSuQmCC" alt="">
+            <span class="bg-yellow-500 w-fit px-3 py-[1px] font-bold">New</span>
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">Surface Pro Liberty Keyboard with Slim Pen 2</h2>
+                <p>Art and innovation come together with this premium keyboard designed by Surface and global design
+                    house, Liberty.</p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Pre-order-now
+                        &#10095;</a></span>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="px-4 py-8 flex flex-col-reverse lg:flex-row lg:bg-[rgb(242,242,242)] lg:my-16 lg:mx-20">
+        <div class="space-y-2 my-6 mx-2">
+            <h1 class="text-2xl text-center font-medium lg:text-3xl">Power your dreams</h1>
+            <p class="text-[21px] text-justify">Experience a new era in next-gen performance with Xbox Series X and Xbox
+                Series S</p>
+            <div class="flex flex-col pl-2 space-y-2 pt-2 lg:flex-row lg:space-x-4">
+                <button class="w-fit bg-blue-700 text-white px-3 py-2 rounded-sm">Xbox Series X</button>
+                <span class="text-blue-600  hover:underline underline-offset-2 cursor-pointer"><a href="#">Xbox Series 5
+                        &#10095;</a></span>
+            </div>
+        </div>
+        <img class="h-56 object-cover lg:h-auto lg:w-[70%]" src="/assets/Hero-Xbox.c7cb597f.jpg" alt="">
+    </div>
+
+
+
+
+    <div class="mt-10 mx-5">
+        <h1 class="text-2xl font-medium ml-5 lg:text-4xl">For business</h1>
+    </div>
+    <div class="lg:flex lg:flex-row lg:mx-8">
+        <!-- <h1 class="text-2xl font-medium ml-5">For business</h1> -->
+        <div class="card flex flex-col px-[0.8rem] py-5 space-y-4 lg:w-[338px]">
+            <img class="lg:max-w-[320px] " src="/assets/Content-Card-5.3418e8af.webp" alt="">
+            <span class="bg-yellow-500 w-fit px-3 py-[3px] font-bold">New</span>
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">Surface Pro 9 for Business</h2>
+                <p>Empower flexible, all-day impact with tablet portability and laptop performance.</p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Pre-order-now
+                        &#10095;</a></span>
+            </div>
+        </div>
+        <div class="card flex flex-col px-[0.8rem] py-5 space-y-4 lg:w-[338px]">
+            <img class="lg:max-w-[320px] " src="/assets/Content-Card-6.10d64395.webp" alt="">
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">Windows 11 for business is here</h2>
+                <p>Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.</p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Learn more &#10095;</a></span>
+            </div>
+        </div>
+        <div class="card flex flex-col px-[0.8rem] py-5 space-y-4 lg:w-[338px]">
+            <img class="lg:max-w-[320px] " src="/assets/Content-Card-7.f0d3e372.webp" alt="">
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">Microsoft 365 for business</h2>
+                <p>Stay a step ahead with powerful apps for productivity, connection and security.</p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Shop now &#10095;</a></span>
+            </div>
+        </div>
+        <div class="card flex flex-col px-[0.8rem] py-5 space-y-4 lg:w-[338px]">
+            <img class="lg:max-w-[320px] " src="/assets/Content-Card-8.3095cb45.webp" alt="">
+            <div class="card-body">
+                <h2 class="text-[27px] font-medium">Get Microsoft Teams for free</h2>
+                <p>Online meetings, chat and shared cloud storage – all in one place.</p>
+            </div>
+            <div class="link-Group">
+                <span class="text-blue-600 hover:underline  cursor-pointer"><a href="#">Sign up for free &#10095;</a></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="socialfollow flex flex-col px-6 space-y-2 my-9 lg:flex-row lg:space-x-8 lg:py-9">
+        <span class="text-lg lg:text-center lg:mt-1.5 lg:text-[21px] cursor-pointer hover:underline">Follow Microsoft</span>
+        <ul class="flex space-x-7">
+            <li><img class="w-6 lg:w-5 cursor-pointer" src="/assets/facebook.57551c9a.svg" alt="facebook"></a></li>
+            <li><img class="w-6 lg:w-5 cursor-pointer" src="/assets/twitter.affb6ed5.svg" alt="twitter"></i></a></li>
+            <li><img class="w-6 lg:w-5 cursor-pointer" src="/assets/youtube.92dad651.svg" alt="youtube"></i></a></li>
+            <li><img class="w-5 lg:w-5 cursor-pointer" src="/assets/instagram.f6e639e2.svg" alt="instagram"></a></li>
+        </ul>
+    </div>
+
+
+
+    <footer>
+        <div class="bg-[rgb(242,242,242)] py-4 text-gray-500 lg:flex lg:flex-row lg:px-9 lg:space-x-6   md:flex md:flex-row md:px-9 md:space-x-6">
+            <div class="nav-group py-4 px-5">
+                <span class="text-sm font-bold lg:text-[16px]">What's new</span>
+                <ul class="text-[13px] space-y-3 my-2 ml-[2px]">
+                    <li class="hover:underline cursor-pointer"><a href="#">Surface Pro 9</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Surface Laptop 5</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Surface Studio 2+</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Surface Laptop Go 2</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Surface Laptop Studio</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Surface Duo 2</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft 365</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Windows 11 apps</a></li>
+                </ul>
+            </div>
+            <div class="nav-group py-4 px-5">
+                <span class="text-sm font-bold lg:text-[16px]">Microsoft Store</span>
+                <ul class="text-[13px] space-y-3 my-2 ml-[2px]">
+                    <li class="hover:underline cursor-pointer"><a href="#">Account profile</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Download Center</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Store Support</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Returns</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Order tracking</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Experience Centre</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Recycling</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Store Promise</a></li>
+                </ul>
+            </div>
+            <div class="nav-group py-4 px-5">
+                <span class="text-sm font-bold lg:text-[16px]">Education</span>
+                <ul class="text-[13px] space-y-3 my-2 ml-[2px]">
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft in education</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Devices for education</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Teams for Education</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft 365 Education</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Office Education</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Educator training and development</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Deals for students and parents</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Azure for students</a></li>
+                </ul>
+            </div>
+            <div class="nav-group py-4 px-5">
+                <span class="text-sm font-bold lg:text-[16px]">Business</span>
+                <ul class="text-[13px] space-y-3 my-2 ml-[2px]">
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Cloud</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Security</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Azure</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Dynamics 365</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft 365</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Industry</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Teams</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Small Business</a></li>
+                </ul>
+            </div>
+            <div class="nav-group py-4 px-5">
+                <span class="text-sm font-bold lg:text-[16px]">Developer & IT
+                </span>
+                <ul class="text-[13px] space-y-3 my-2 ml-[2px]">
+                    <li class="hover:underline cursor-pointer"><a href="#">Developer Center</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Documentation</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Learn</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Tech Community</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Azure Marketplace</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">AppSource</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Microsoft Power Platform</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Visual Studio</a></li>
+
+                </ul>
+            </div>
+            <div class="nav-group py-4 px-5">
+                <span class="text-sm font-bold lg:text-[16px]">Company</span>
+                <ul class="text-[13px] space-y-3 my-2 ml-[2px]">
+                    <li class="hover:underline cursor-pointer"><a href="#">Careers</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">About Microsoft</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Company news</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Privacy at Microsoft</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Investors</a></li>
+                    <li class="hover:underline cursor-pointer"><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="endingfooter flex flex-col bg-[rgb(242,242,242)] text-gray-500 space-y-2 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-9">
+            <div class="flex space-x-2.5 ml-3">
+                <img src="/assets/earth-americas-solid.2c0c2965.svg" class="w-4 cursor-pointer opacity-60" alt="">
+                <a href="#" class="text-[13px] hover:underline lg:pt-1">English (United Kingdom)</a>
+            </div>
+            <div class="px-5 lg:flex lg:justify-between lg:items-center">
+                <ul class="text-[11px] flex flex-wrap space-y-1 lg:text-[12px]">
+                    <li class="pr-4 hover:underline pt-1"><a href="#">Contact Microsoft</a></li>
+                    <li class="pr-4 hover:underline"><a href="#">Privacy</a></li>
+                    <li class="pr-[7px] hover:underline"><a href="#">Terms of use</a></li>
+                    <li class="pr-4 hover:underline"><a href="#">Trademarks</a></li>
+                    <li class="pr-[13px] hover:underline"><a href="#">About our ads</a></li>
+                    <li class="pr-[2px] hover:underline"><a href="#">EU Compliance DoCs</a></li>
+                    <li class="pr-4 hover:underline"><a href="#">Regulatory reporting</a></li>
+                    <li class="pr-4 hover:underline"><a href="#">© Microsoft 2022</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        let hamburgar = document.getElementById('hamburgar');
+        let fline = document.getElementById('fline');
+        let sline = document.getElementById('sline');
+        let tline = document.getElementById('tline');
+        hamburgar.addEventListener("click", function() {
+            let sidebar = document.getElementById('features');
+            sidebar.classList.toggle("hidden");
+        });
+
+        
+    </script>
+</body>
+
+</html>
